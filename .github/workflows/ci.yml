@@ -34,4 +34,5 @@ jobs:
         run: encoder --help
 
       - name: Run tests
+        shell: pwsh
         run: pytest
